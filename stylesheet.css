@@ -1,0 +1,108 @@
+body {
+    background-color: #e2c9b9;
+}
+button:focus{
+    outline:none;
+}
+#header{
+    position: relative;
+    text-align: center;
+    top: -5px;
+    z-index: 2;
+    font-family: Cursive;
+}
+#wrapper{
+    position: absolute;
+    border-radius: 5px;
+    background-color: #F5F5DC;
+    width: 99%;
+    height: 98.5%;
+    z-index: -1;
+}
+#clickWrapper {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #d86262;
+    border: 2px solid grey;
+    left: 20px;
+    width: 250px;
+    height:100px;
+    z-index: 1;
+    cursor: default;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+#dragUpgrade {
+    position: absolute;
+    border-radius: 5px;
+    background-color: #d86262;
+    border: 2px solid grey;
+    width: 100px;
+    height: 100px;
+    right: 20px;
+    float: right;
+    z-index: 1;
+    cursor: default;
+}
+#clickUpOne{
+}
+#clickMultOne{
+}
+#workerOne{
+}
+.upgrades{
+    position: relative;
+    margin-top: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    width: 90px;
+    height: 20px;
+    left: 4px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+.upgrades p{
+    margin-top: 1px;
+    text-align: center;
+    font-size: 95%;
+}
+#clickButton{
+    position: relative;
+    bottom: -13px;
+    margin-left: 75px;
+    border-radius: 5px;
+    height: 20px;
+    width: 100px;
+    border: 1px solid black;
+    font-size: 125%;
+    text-align: center;
+    background-color: lightgrey;
+}
+.moneyInfo{
+    position: relative;
+    text-align: center;
+    top: 5px;
+}
+#money{
+}
+
+.addButton{
+    margin: 5px 0px 0px 5px;
+    padding: 5px 5px 5px 5px;
+    display: block;
+    border-radius: 10px;
+    border: 0px;
+    display: inline;
+}
+.removeButton{
+    float: right;
+    margin: 5px 5px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: 0px;
+}

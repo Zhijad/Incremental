@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incremental Game</title>
+
+    <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+    <link rel='stylesheet' href='jquery-ui-1.11.0\jquery-ui.min.css'>
+    <script type='text/javascript' src='jquery-2.1.1.min.js'></script>
+    <script src='jquery-ui-1.11.0\jquery-ui.min.js'></script>
+    <script type='text/javascript' src='script.js'></script>
+</head>
+<body>
+<div id="wrapper">
+    <div id="header"><h2>My Incremental</h2></div>
+    <div id="clickWrapper">
+        <div class="moneyInfo" id="money">Money: 0</div>
+        <div class="moneyInfo" id="moneyPerClick">Per Click: 1</div>
+        <div class="moneyInfo" id="moneyPerSec">Per Second: 0</div>
+        <div id="clickButton" onclick="clickAdd()">Click Me</div>
+    </div>
+    <div id="dragUpgrade">
+        <div class="upgrades" id="clickUpOne" onclick="clickUpgrade()"><p>Better Clicks<p></div>
+        <div class="upgrades" id="clickMultiOne" onclick="clickMulti()"><p>Multiply Clicks<p></div>
+        <div class="upgrades" id="workerOne" onclick="workerOne()"><p>Worker 1<p></div>
+    </div>
+</div>
+</body>
+</html>
